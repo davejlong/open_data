@@ -41,9 +41,15 @@
 
 #chart div {
   color: white;
+  background: white;
   text-align: right;
   padding: rem-calc(3px);
   margin: rem-calc(1px);
   border-top-right-radius: rem-calc(5px);
   border-bottom-right-radius: rem-calc(5px);
+  width: 0px;
+  text-overflow: ellipsis;
+  height: 20px;
+  overflow: hidden;
+  display: block;
 }
