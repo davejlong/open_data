@@ -38,3 +38,12 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+#chart div {
+  color: white;
+  text-align: right;
+  padding: rem-calc(3px);
+  margin: rem-calc(1px);
+  border-top-right-radius: rem-calc(5px);
+  border-bottom-right-radius: rem-calc(5px);
+}
